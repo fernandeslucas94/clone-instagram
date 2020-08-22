@@ -1,0 +1,157 @@
+/* 
+==========
+RESET CSS
+==========
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+==============
+END RESET CSS
+==============
+*/
+
+/* BODY */
+#page-body {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+==========
+CONTAINER
+==========
+*/
+
+.container {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.content {
+    height: 400px;
+    width: 600px;
+    margin-right: 50px;
+    margin-top: -100px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc
+}
+
+.content img {
+    height: 50px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.content input[type='text'] {
+    width: 280px;
+    height: 35px;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    background-color: #eee;
+}
+
+.content #send {
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ADD8E6;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ou {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ou div {
+    background-color: #ccc;
+    height: 1px;
+    width: 100px;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: #000080;
+    margin-top: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastro {
+    position: absolute;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+    margin-top: 530px;
+    margin-left: 378px;
+
+    width: 425px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro p {
+    margin-right: 10px;
+}
+
+.cadastro a {
+    text-decoration: none;
+    color: #000080;
+}
+
+#obtenha {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 378px;
+}
+
+.apps-stores {
+    width: 400px;
+    height: 80px;
+
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 378px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#google {
+    width: 180px;
+    height: 60px;
+}
+
+#apple {
+    width: 180px;
+    height: 60px;
+
+    margin-right: 10px;
+}
+
+.apps-stores a {
+    cursor: pointer;
+}
