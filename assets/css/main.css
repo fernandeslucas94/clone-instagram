@@ -93,6 +93,11 @@ CONTAINER
 .ou p {
     position: absolute;
     margin-top: -7px;
+    color: #ccc;
+}
+
+.ou hr {
+    background-color: #ccc;
 }
 
 .facebook a {
@@ -148,17 +153,52 @@ CONTAINER
 }
 
 #google {
-    width: 180px;
-    height: 60px;
+    width: 140px;
+    height: 45px;
 }
 
 #apple {
-    width: 180px;
-    height: 60px;
+    width: 140px;
+    height: 45px;
 
     margin-right: 10px;
 }
 
 .apps-stores a {
     cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+
+    width: 650px;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 780px;
+
+    flex-direction: column;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+.menu p {
+    color: #444;
+
+    margin-top: 20px;
 }
